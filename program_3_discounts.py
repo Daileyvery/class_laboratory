@@ -2,7 +2,7 @@ def final_price(price, discount):
     return price - (price * discount)
 
 def discount_print(name, overall):
-    print(f"Final Price of {name} is {overall}")
+    print(f"Final Price of {name} is ${overall:.2f}")
 
 discount_library = {
     "Costumer 1:": final_price(100, .10),
