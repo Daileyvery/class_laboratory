@@ -11,5 +11,3 @@ numbers_library = {
     "Third Set:": [100, 150, 200]
 }
 
-
-
